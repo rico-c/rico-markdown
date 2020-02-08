@@ -1,7 +1,4 @@
-import {
-  ADD,
-  MINUS
-} from '../constants/counter'
+import { ADD, MINUS, ADD_USER, ARTICLE_LIST } from "../constants/counter";
 
 export const add = () => {
   return {
@@ -16,9 +13,18 @@ export const minus = () => {
 
 export const articleList = articleList => {
   return {
-    type: ARTTICLE_LIST,
+    type: ARTICLE_LIST,
     payload: {
       articleList
+    }
+  };
+};
+
+export const addUserInfo = info => {
+  return {
+    type: ADD_USER,
+    payload: {
+      info
     }
   };
 };
