@@ -1,0 +1,18 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "markdownBook",
+	"description": "MarkdownBook",
+	"appid": "wx0dddc786f32c6ef5",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+	"condition": {},
+	"cloudfunctionRoot": "./functions/"
+}

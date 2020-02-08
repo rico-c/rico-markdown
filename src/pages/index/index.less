@@ -1,0 +1,30 @@
+.index {
+  height: 100vh;
+  .float-btn {
+    position: fixed;
+    bottom: 100rpx;
+    right: 60rpx;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    .at-fab__icon {
+      line-height: 48rpx;
+    }
+  }
+  .at-search-bar__action {
+    display: none;
+  }
+  .at-list__item {
+    padding: 25rpx 35rpx;
+    .item-content__info-title {
+      font-size: 30rpx;
+    }
+    .item-extra__icon-arrow {
+      font-size: 30rpx;
+    }
+  }
+  .at-list::after {
+    border-bottom-width: 0;
+    border-top-width: 0;
+  }
+}
